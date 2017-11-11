@@ -1,0 +1,14 @@
+{
+  "name": "octobox-bbb",
+  "version": "1.0.0",
+  "description": "Beaglebone Black Client for the OctoBox system ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bonescript": "^0.6.1"
+  }
+}
