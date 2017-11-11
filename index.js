@@ -165,6 +165,7 @@ function virtual( d, cmd ) {
 
 function msgParse( msg ) {
 	let m = JSON.parse( msg );
+	console.log( msg );
 	let device = ( map ) => {
 		for ( let x = 0; x < map.length; x++ ) {
 			if ( map[ x ].id === m[ 1 ].device ) {
