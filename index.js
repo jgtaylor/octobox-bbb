@@ -1,7 +1,8 @@
-re( "bonescript" );
+"use strict";
+var bone = require( "bonescript" );
 const server = "192.168.0.41",
 	configMap = [ {
-		id: "accbaa81-b2e4-46e4-a2f4-84d398dd86e3",
+		id: "orange-84d398dd86e3",
 		pin: "P8_7",
 		type: "button",
 		validCmds: [ "on", "off", "getState" ],
@@ -11,73 +12,73 @@ const server = "192.168.0.41",
 		}
 
 	}, {
-		id: "bccbaa81-b2e4-46e4-a2f4-84d398dd86e3",
+		id: "blue-84d398dd86e3",
 		pin: "P8_8",
 		type: "button",
 		validCmds: [ "on", "off", "getState" ],
 		meta: {
 			usage: "Mains Relay",
-			color: "Orange"
+			color: "Blue"
 		}
 
 	}, {
-		id: "cccbaa81-b2e4-46e4-a2f4-84d398dd86e3",
+		id: "green-84d398dd86e3",
 		pin: "P8_9",
 		type: "button",
 		validCmds: [ "on", "off", "getState" ],
 		meta: {
 			usage: "Mains Relay",
-			color: "Orange"
+			color: "Green"
 		}
 
 	}, {
-		id: "dccbaa81-b2e4-46e4-a2f4-84d398dd86e3",
+		id: "red-84d398dd86e3",
 		pin: "P8_10",
 		type: "button",
 		validCmds: [ "on", "off", "getState" ],
 		meta: {
 			usage: "Mains Relay",
-			color: "Orange"
+			color: "Red"
 		}
 
 	}, {
-		id: "eccbaa81-b2e4-46e4-a2f4-84d398dd86e3",
+		id: "yellow-84d398dd86e3",
 		pin: "P8_11",
 		type: "button",
 		validCmds: [ "on", "off", "getState" ],
 		meta: {
 			usage: "Mains Relay",
-			color: "Orange"
+			color: "Yellow"
 		}
 
 	}, {
-		id: "fccbaa81-b2e4-46e4-a2f4-84d398dd86e3",
+		id: "purple-84d398dd86e3",
 		pin: "P8_12",
 		type: "button",
 		validCmds: [ "on", "off", "getState" ],
 		meta: {
 			usage: "Mains Relay",
-			color: "Orange"
+			color: "Purple"
 		}
 
 	}, {
-		id: "gccbaa81-b2e4-46e4-a2f4-84d398dd86e3",
+		id: "white-84d398dd86e3",
 		pin: "P8_14",
 		type: "button",
 		validCmds: [ "on", "off", "getState" ],
 		meta: {
 			usage: "Mains Relay",
-			color: "Orange"
+			color: "White"
 		}
 
 	}, {
-		id: "hccbaa81-b2e4-46e4-a2f4-84d398dd86e3",
+		id: "black-84d398dd86e3",
 		pin: "P8_16",
 		type: "button",
 		validCmds: [ "on", "off", "getState" ],
 		meta: {
 			usage: "Mains Relay",
-			color: "Orange"
+			color: "Black"
 		}
 
 	}, ],
