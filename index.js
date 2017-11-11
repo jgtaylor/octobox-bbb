@@ -125,7 +125,7 @@ function button( d, cmd ) {
 					device: d.id,
 					mode: bone.getPinMode( d.pin )
 						.gpio,
-					value: bone.digitialRead( d.pin )
+					value: bone.digitalRead( d.pin )
 				} ];
 				WebSock.send( JSON.stringify( retMsg ) );
 				break;
