@@ -177,6 +177,10 @@ function msgParse( msg ) {
 		case "cmd":
 			{
 				let d = device( configMap );
+				if ( !d ) {
+					return
+				};
+
 				switch ( d.type ) {
 					case "button":
 						{
