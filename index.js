@@ -234,9 +234,7 @@ function WebSockconnect( state ) {
 }
 
 configMap.forEach( ( d ) => {
-	bone.pinMode( d.pin, bone.OUTPUT, null, null, null, ( d ) => {
-		console.log( `Setting ${d.pin} to Output` )
-	} );
+	bone.pinMode( d.pin, bone.OUTPUT );
 } );
 
 WebSockconnect( 0 );
