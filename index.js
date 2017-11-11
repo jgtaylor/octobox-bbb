@@ -102,7 +102,7 @@ function configGen( config ) {
 function button( d, cmd ) {
 	if ( bone.getPinMode( d.pin )
 		.gpio.direction !== "out" ) {
-		bone.pinMode( d.pin, bone.OUTPUT, ( d.pin ) => {
+		bone.pinMode( d.pin, bone.OUTPUT, ( d ) => {
 			console.log( `Setting ${d.pin} to Output` )
 		} );
 	}
@@ -234,7 +234,7 @@ function WebSockconnect( state ) {
 }
 
 configMap.forEach( ( d ) => {
-	bone.pinMode( d.pin, bone.OUTPUT, ( d.pin ) => {
+	bone.pinMode( d.pin, bone.OUTPUT, ( d ) => {
 		console.log( `Setting ${d.pin} to Output` )
 	} );
 } );
