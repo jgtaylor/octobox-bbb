@@ -215,7 +215,7 @@ function WebSockconnect( state ) {
 		WebSock.removeAllListeners();
 		WebSock = null;
 	}
-	WebSock = new WebSocket( "ws://192.168.0.41:1880/ws/device" );
+	WebSock = new WebSocket( "ws://192.168.0.116:1880/ws/device" );
 	WebSock.on( "open", () => {
 		WebSock.send( JSON.stringify( [ "config", configGen( configMap ) ] ) );
 		console.log( "[SUCCESS] WebSocket connected." );
