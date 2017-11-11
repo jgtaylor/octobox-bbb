@@ -214,9 +214,8 @@ function WebSockconnect( state ) {
 		WebSock.removeAllListeners();
 		WebSock = null;
 	}
-	WebSock = new WebSocket( "ws://" + server, {
+	WebSock = new WebSocket( "ws://" + server + ":1880", {
 		path: "/ws/device",
-		port: 1880,
 		origin: "BeagleBoneBlack",
 		keepAlive: 60
 	} );
