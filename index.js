@@ -1,6 +1,6 @@
 "use strict";
 var bone = require( "bonescript" );
-const server = "192.168.0.41",
+const server = "joshuas-imac.local",
 	configMap = [ {
 		id: "orange-84d398dd86e3",
 		pin: "P8_7",
